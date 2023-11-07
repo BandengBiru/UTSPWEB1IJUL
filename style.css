@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Nunito', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   transition: all .2s linear;
+   text-transform: capitalize;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+
+body{
+   background-image: url(760241.jpg);
+}
+
+nav{
+   position: fixed;
+   position: -webkit-sticky;
+   top:0;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:12px 0px 12px 12px;
+   background:white;
+   z-index: 1000;
+   border: 10px solid rgba(125, 212, 253, 0.822);
+   transition: 0.6s;
+}
+nav .logo{
+   position: relative;
+   display: flex;
+   font-family: 'Press Start 2P';
+   left: 20px;
+   font-weight: 900;
+   color:black;
+   text-decoration: none;
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   transition: 0.55s;
+   align-items: center;
+}
+nav ul {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+nav ul li {
+position: relative;
+list-style: none;
+font-family: 'Josefin Sans';
+font-size: 18px;
+}
+nav ul li a{
+   position: relative;
+   margin: 0 15px;
+   text-decoration: none;
+   color: black;
+   letter-spacing: 1px;
+   font-weight: 500px;
+   transition: 0.55s;
+}
+nav ul li a:hover{
+color: #000000;
+transition:  0.8s;
+color: rgb(0, 4, 252);
+}
+
+.kolom{
+ padding: 80px 0px 20px 0px  ;
+ right: 30px;
+ justify-content: center;
+ background: white;
+ border-style: groove;
+ background: linear-gradient(to right, #51cedfcb, #1657ac);
+ font-family: 'Josefin Sans';
+ font-size: 20px;
+ text-align: center;
+word-spacing: 1px;
+}
+
+
+.tag-detail {
+   background: #f72323;
+   margin-left: 230px;
+   border-style: groove;
+   font-weight: bold;
+}
+.tag-detail a{
+   color: #000000;
+   font-size: 11px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tag-detail a:hover{
+   color: #ece9e6;
+   transition: 0.5s;
+}
+
+
+
+
+
+.container{
+   max-width: 1200px;
+   margin:0 auto;
+   padding:3rem 2rem;
+}
+
+.container .title{
+   font-size: 3.5rem;
+   color:#444;
+   margin-bottom: 3rem;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.container .products-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+   gap:2rem;
+}
+
+.container .products-container .product{
+   text-align: center;
+   padding:3rem 2rem;
+   background: #fff;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+   outline: .1rem solid #ccc;
+   outline-offset: -1.5rem;
+   cursor: pointer;
+}
+
+.container .products-container .product:hover{
+   outline: .2rem solid #222;
+   outline-offset: 0;
+}
+
+.container .products-container .product img{
+   height: 25rem;
+}
+
+.container .products-container .product:hover img{
+   transform: scale(.9);
+}
+
+.container .products-container .product h3{
+   padding:.5rem 0;
+   font-size: 2rem;
+   color:#444;
+}
+
+.container .products-container .product:hover h3{
+   color:#d40a0a;
+}
+
+.container .products-container .product .price{
+   font-size: 2rem;
+   color:#444;
+}
+
+
+
+#kontak{
+   background: white;
+   border-style: groove;
+   background: linear-gradient(to right, #51cedfcb, #1657ac);
+   font-family: 'Josefin Sans';
+   text-align: center;
+ word-spacing: 1px;
+ font-size: medium;
+}
+#copyright{
+   text-align: center;
+}
